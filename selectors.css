@@ -1,5 +1,60 @@
-ul {
+#nav {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: pink;
+}
+
+#nav li {
+    display: inline;
+    padding: 10px;
+}
+
+.disabled {
+    color: gray;
+}
+
+a.disabled {
+    color: purple;
+}
+
+a {
+    color: red;
+}
+
+.grandparent h4 {
+    border: 1px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.active {
+    color: yellow;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.sister {
+    background-color: red;
+}
+
+.brother {
+    background-color: blue;
+}
+
+.promo {
+    color: gold;
+    font-weight: bold;
+}
+
+span input {
+    line-height: 25px;
 }
